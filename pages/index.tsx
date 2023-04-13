@@ -47,14 +47,14 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
+            <h2 className={`${inter.className} mb-3 text-3xl lg:text-2xl font-semibold`}>
               🏠 ImmoVerse App{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
             </h2>
             <p
-              className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
+              className={`${inter.className} m-0 max-w-[30ch] text-md opacity-50`}
             >
               Real Estate investing made easy. 100% on-chain.
             </p>
@@ -66,14 +66,14 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
+            <h2 className={`${inter.className} mb-3 text-3xl lg:text-2xl font-semibold`}>
               👶 BabyFarm{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
             </h2>
             <p
-              className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
+              className={`${inter.className} m-0 max-w-[30ch] text-md opacity-50`}
             >
               Let autonomous AI babies work for you while fast asleep.
             </p>
@@ -85,14 +85,14 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
+            <h2 className={`${inter.className} mb-3 text-3xl lg:text-2xl font-semibold`}>
               🍟 Pommes{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
               </span>
             </h2>
             <p
-              className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
+              className={`${inter.className} m-0 max-w-[30ch] text-md opacity-50`}
             >
               Discover and engage in new Web3 projects.
             </p>
