@@ -10,6 +10,9 @@ export default function Home() {
     <>
       <Head>
         <title>Check out our projects | ImmoVerse</title>
+        <meta name="description" content="Explore all services and apps brought to you by the ImmoVerse Team: Alex Ochs & Mazlum Sagdasli. ImmoVerse: Real Estate investing made easy. 100% on-chain.. BabyFarm: Let autonomous AI babies work for you while you sleep. Pommes: Discover and engage in new Web3 projects." />
+        <meta name="keywords" content="Real Estate, Blockchain, Ethereum, AI, OpenGPT, OpenAI, AutoGPT, BabyAGI, Web3, NFT, Marketplace, Investment" />
+        <meta name="author" content="Alex Ochs" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
