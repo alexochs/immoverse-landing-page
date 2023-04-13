@@ -75,7 +75,7 @@ export default function Home() {
             <p
               className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
             >
-              Let autonomous AI babies work for you while you sleep.
+              Let autonomous AI babies work for you while fast asleep.
             </p>
           </Link>
 
