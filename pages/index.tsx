@@ -23,22 +23,22 @@ export default function Home() {
             </p>
           </Link>
 
-          <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+          <Link href="https://alexochs.de" target="_blank" className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
             <div
               className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             >
               By <Link href="https://alexochs.de" target="_blank" className="font-bold hover:underline">Alex Ochs</Link> & <Link href="https://www.linkedin.com/in/mazlum-sagdasli-36645a105/" target="_blank" className="font-bold hover:underline">Mazlum Sagdasli</Link>
             </div>
-          </div>
+          </Link>
         </div>
 
-        <Link href="https://alexochs.de" target="_blank" className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
+        <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
           <h1
             className="relative text-6xl font-bold leading-tight tracking-tighter md:text-7xl"
           >
             Made by ImmoVerse
           </h1>
-        </Link>
+        </div>
 
         <div className="mb-16 grid gap-8 text-center lg:mb-0 lg:grid-cols-3 lg:text-left">
           <Link
