@@ -27,7 +27,7 @@ export default function Home() {
             <div
               className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             >
-              By <Link href="https://alexochs.de" target="_blank" className="font-bold">Alex Ochs</Link> & <Link href="https://www.linkedin.com/in/mazlum-sagdasli-36645a105/" target="_blank" className="font-bold">Mazlum Sagdasli</Link>
+              By <Link href="https://alexochs.de" target="_blank" className="font-bold hover:underline">Alex Ochs</Link> & <Link href="https://www.linkedin.com/in/mazlum-sagdasli-36645a105/" target="_blank" className="font-bold hover:underline">Mazlum Sagdasli</Link>
             </div>
           </div>
         </div>
