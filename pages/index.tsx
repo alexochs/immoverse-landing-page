@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Link from 'next/link'
 
+import { BsInstagram, BsLinkedin, BsWhatsapp } from "react-icons/bs";
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
         <meta name="keywords" content="Real Estate, Blockchain, Ethereum, AI, OpenGPT, OpenAI, AutoGPT, BabyAGI, Web3, NFT, Marketplace, Investment" />
         <meta name="author" content="Alex Ochs" />
       </Head>
+
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
           <Link href="https://app.immover.se" target="_blank">
@@ -97,6 +100,76 @@ export default function Home() {
               Discover and engage in new Web3 projects.
             </p>
           </Link>
+        </div>
+
+        <div className="flex place-items-center mt-8">
+          <h1
+            className="text-6xl font-bold leading-tight tracking-tighter md:text-7xl"
+          >
+            Team
+          </h1>
+        </div>
+
+        <div className="mb-16 grid gap-8 text-center lg:mb-0 lg:grid-cols-2 lg:text-left">
+          <div
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          >
+            <h2 className={`${inter.className} mb-3 text-3xl lg:text-2xl font-semibold`}>
+              👨🏻‍💻 Alex Ochs
+            </h2>
+
+            <p
+              className={`${inter.className} mb-3 m-0 max-w-[30ch] text-md opacity-50`}
+            >
+              Co-Founder & CTO.
+            </p>
+
+            <div
+              className={`${inter.className} flex gap-4 m-0 max-w-[30ch] text-md opacity-50 justify-center lg:justify-start`}
+            >
+              <Link href="https://wa.me/0491742441326" target="_blank">
+                <BsWhatsapp className="w-10 h-10" />
+              </Link>
+
+              <Link href="https://instagram.com/alexochsit" target="_blank">
+                <BsInstagram className="w-10 h-10" />
+              </Link>
+
+              <Link href="https://www.linkedin.com/in/alex-ochs-b379b61a3/" target="_blank">
+                <BsLinkedin className="w-10 h-10" />
+              </Link>
+            </div>
+          </div>
+
+          <div
+            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          >
+            <h2 className={`${inter.className} mb-3 text-3xl lg:text-2xl font-semibold`}>
+              👨🏻 Mazlum Sagdasli
+            </h2>
+
+            <p
+              className={`${inter.className} mb-3 m-0 max-w-[30ch] text-md opacity-50`}
+            >
+              Co-Founder & CMO.
+            </p>
+
+            <div
+              className={`${inter.className} flex gap-4 m-0 max-w-[30ch] text-md opacity-50 justify-center lg:justify-start`}
+            >
+              <Link href="https://wa.me/0491778800970" target="_blank">
+                <BsWhatsapp className="w-10 h-10" />
+              </Link>
+
+              <Link href="https://instagram.com/mr.sagdasli" target="_blank">
+                <BsInstagram className="w-10 h-10" />
+              </Link>
+
+              <Link href="https://www.linkedin.com/in/mazlum-sagdasli-36645a105/" target="_blank">
+                <BsLinkedin className="w-10 h-10" />
+              </Link>
+            </div>
+          </div>
         </div>
       </main>
     </>
