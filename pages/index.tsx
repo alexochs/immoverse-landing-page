@@ -64,7 +64,7 @@ export default function Home() {
           </Link>
 
           <Link
-            href="https://babyfarm.immover.se"
+            href="https://babyfarm.app"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
             rel="noopener noreferrer"
@@ -127,7 +127,7 @@ export default function Home() {
             <div
               className={`${inter.className} flex gap-4 m-0 max-w-[30ch] text-md opacity-50 justify-center lg:justify-start`}
             >
-              <Link href="https://wa.me/0491742441326" target="_blank">
+              <Link href="https://wa.me/491742441326" target="_blank">
                 <BsWhatsapp className="w-10 h-10" />
               </Link>
 
@@ -157,7 +157,7 @@ export default function Home() {
             <div
               className={`${inter.className} flex gap-4 m-0 max-w-[30ch] text-md opacity-50 justify-center lg:justify-start`}
             >
-              <Link href="https://wa.me/0491778800970" target="_blank">
+              <Link href="https://wa.me/491778800970" target="_blank">
                 <BsWhatsapp className="w-10 h-10" />
               </Link>
 
