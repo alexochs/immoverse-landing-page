@@ -131,7 +131,7 @@ export default function Home() {
                 <BsWhatsapp className="w-10 h-10" />
               </Link>
 
-              <Link href="https://instagram.com/alexochsit" target="_blank">
+              <Link href="https://instagram.com/ochs.software" target="_blank">
                 <BsInstagram className="w-10 h-10" />
               </Link>
 
